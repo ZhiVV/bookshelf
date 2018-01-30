@@ -39,7 +39,7 @@ function init() {
                             + bookApp.bookArray[i].name 
                             + '</td><td></td></tr><tr><td>Автор: ' 
                             + bookApp.bookArray[i].author 
-                            + '</td><td><button  class="allBtn" onClick="bookApp.btnEdit(' + i 
+                            + '</td><td align="right"><button  class="allBtn" onClick="bookApp.btnEdit(' + i 
                             + ')">Редактировать</button><br><br><button  class="allBtn" onclick="bookApp.btnDel(' + i 
                             + ')">Удалить</button></td></tr><tr><td>Год издания: ' 
                             + bookApp.bookArray[i].year + '</td><td></td></tr>';
