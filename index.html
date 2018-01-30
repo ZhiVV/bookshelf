@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bookshelf</title>
+<link rel="stylesheet" type="text/css" href="bookshelf.css">
+<script src="script.js">
+</script>
+</head>
+<body>
+    <div align="center">
+        <h1>Книжная полка</h1>
+    </div>
+        
+    <div align="center" id="list">Что то пошло не так.</div>
+    <br>
+    <div align="center">                 
+    <button id="btnAdd" class="allBtn">Добавить книгу</button>
+    </div>
+       
+    <div id="addEditModal" class="modal">
+    
+      <div style="border-radius: 8px;" class="modal-content">
+        <h1 id="modalHeader" align="center">Добавление новой книги</h1>
+        <br>
+        <div>Наименование:</div>
+        <div><input type="text" autofocus id="modalBookName" name="name" value="" placeholder="Название книги"></div>
+        <br>        <br>
+        <div>Автор:</div>
+        <div><input type="text" id="modalBookAuthor" name="author" placeholder="Автор книги"></div>
+        <br>
+        <div>Год издания:</div>
+        <div><input type="number" min="1" max="2018" id="modalBookYear" name="year" placeholder="Год издания"></div>
+        <br>
+        <div>Изображение:</div>
+        <div><input type="url" id="modalBookCover" name="cover" placeholder="Ссылка на изображение"></div>
+        <br>
+        <div align="center"><button id="btnSave" class="allBtn">Сохранить</button>
+        <button id="btnClose" class="allBtn">Отменить</button></div>
+        
+      </div>
+      
+      
+    </div>
+    
+   
+
+</body>
+
+</html>
